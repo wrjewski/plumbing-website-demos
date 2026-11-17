@@ -4,53 +4,48 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Demo emergency-style website for Covenant Plumbing in Rosenberg, TX. Call (832) 744-0705. Rated 4.8 from 19 Google reviews.">
-  <title>Covenant Plumbing | Emergency Plumber in Rosenberg, TX</title>
+  <meta name="description" content="Demo website for Covenant Plumbing, a plumber in Rosenberg, TX. Call (832) 744-0705. Rated 4.8 from 19 Google reviews.">
+  <title>Covenant Plumbing | Plumber in Rosenberg, TX</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,550&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="dispatch-bar" role="status">
-    <div class="container dispatch-inner">
-      <span class="dispatch-label">24/7 Emergency Dispatch</span>
-      <span class="live-badge">
-        <span class="live-dot" aria-hidden="true"></span>
-        Sample status · dispatch display for this demo
-      </span>
-      <span class="dispatch-area">Rosenberg · Richmond · Sugar Land · Fulshear · Needville</span>
-    </div>
-  </div>
-
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="logo" href="#top" id="top">
+      <a class="logo" href="#top" aria-label="Covenant Plumbing home">
         <span class="logo-mark" aria-hidden="true">
-          <svg viewBox="0 0 36 36" width="32" height="32" fill="none">
-            <circle cx="18" cy="18" r="16" stroke="currentColor" stroke-width="2"/>
-            <path d="M18 10v8l5 3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M26.5 11.5c3.2 3.2 3.2 9.8 0 13M9.5 11.5c-3.2 3.2-3.2 9.8 0 13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+            <path d="M8 22v12h24V22" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M6 22 20 8l14 14" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M24 34V24h6v10" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M16 16.5c0-2 1.4-3.5 3-4.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="20.2" cy="10.6" r="1.5" fill="currentColor"/>
           </svg>
         </span>
         <span class="logo-text">
           <span class="logo-name">Covenant</span>
-          <span class="logo-trade">Plumbing</span>
+          <span class="logo-trade">Plumbing · Rosenberg</span>
         </span>
       </a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="#how">How it works</a>
-        <a href="#rates">Flat rates</a>
-        <a href="#faq">FAQ</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#family">Our story</a>
+        <a href="#services">Services</a>
+        <a href="#plan">Home Plan</a>
+        <a href="#reviews">Kind words</a>
+        <a href="#book">Book a visit</a>
       </nav>
-      <a class="btn btn-call" href="tel:+18327440705">
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
-          <path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3A15 15 0 0 1 6.5 3.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-        </svg>
-        (832) 744-0705
-      </a>
+
+      <a class="header-phone" href="tel:+18327440705">(832) 744-0705</a>
+      <a class="btn btn-primary header-book" href="#book">Book a visit</a>
     </div>
   </header>
 
@@ -58,152 +53,161 @@
     <section class="hero" aria-labelledby="hero-heading">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="flag">60-min arrival</span> Licensed · Insured · On call tonight</p>
-          <h1 id="hero-heading">Plumber at your door<br> in 60 min.</h1>
-          <p class="hero-sub">Burst pipe. Overflowing toilet. No hot water. Call the dispatch line — a licensed plumber rolls immediately.</p>
-          <a class="hero-phone" href="tel:+18327440705">(832) 744-0705</a>
+          <p class="eyebrow">A family shop based in Rosenberg</p>
+          <h1 id="hero-heading">The plumbers your neighbors already know.</h1>
+          <p class="hero-sub">Covenant Plumbing is a family-run shop in Rosenberg led by Tony Martinez (Antonio Martinez Jr.), a Texas Responsible Master Plumber licensed since 1988. Call or text us for kitchens, water heaters, and the everyday “can you come take a look?” jobs across Rosenberg, Richmond, Sugar Land, Fulshear, and Needville.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="tel:+18327440705">Call the dispatch line</a>
-            <a class="btn btn-ghost" href="#rates">See flat rates</a>
+            <a class="btn btn-primary" href="#book">Book a visit</a>
+            <a class="btn btn-ghost" href="tel:+18327440705">Call (832) 744-0705</a>
           </div>
-          <ul class="hero-meta">
-            <li><strong>4.8 on Google</strong><span>19 reviews</span></li>
-            <li><strong>Avg. arrival 47 min</strong><span>Sample figure, for illustration</span></li>
-            <li><strong>Nights &amp; holidays</strong><span>Sample promise — confirm hours with the shop</span></li>
-          </ul>
+          <p class="hero-fine">Licensed &amp; insured · Same-week appointments · Nights if you need us</p>
         </div>
         <figure class="hero-media">
-          <img src="assets/hero-repair.jpg" alt="Plumber tightening a supply valve under a sink" width="1800" height="1200">
-          <figcaption class="hero-caption">
-            <span class="live-badge dark">
-              <span class="live-dot" aria-hidden="true"></span>
-              Sample status · demo only
-            </span>
-          </figcaption>
+          <img src="assets/hero-home.jpg" alt="A suburban home at dusk with the porch light on and windows glowing" width="1800" height="1200">
+          <figcaption>A porch light on in a Rosenberg neighborhood — the kind of street we work on every week.</figcaption>
         </figure>
       </div>
     </section>
 
-    <section class="how" id="how" aria-labelledby="how-heading">
-      <div class="container">
-        <p class="section-kicker">Three steps. Then we roll.</p>
-        <h2 id="how-heading">Call. We dispatch. We're at your door.</h2>
-        <ol class="steps">
-          <li>
-            <span class="step-num">01</span>
-            <h3>You call</h3>
-            <p>Tell us what's leaking, backed up, or shut off. A real dispatcher picks up — not a voicemail box.</p>
-          </li>
-          <li>
-            <span class="step-num">02</span>
-            <h3>We dispatch</h3>
-            <p>The nearest licensed plumber gets the job and a clock starts. You get a text when they're rolling.</p>
-          </li>
-          <li>
-            <span class="step-num">03</span>
-            <h3>At your door in 60</h3>
-            <p>A plumber is on site within an hour. If we're running late, we say so before the hour is up.</p>
-          </li>
-        </ol>
+    <section class="family" id="family" aria-labelledby="family-heading">
+      <div class="container family-grid">
+        <figure class="family-photo">
+          <img src="assets/family.jpg" alt="A family of four preparing breakfast together at a kitchen island" width="1800" height="1201">
+          <figcaption>Sample photo · for layout only, not a photo of this company.</figcaption>
+        </figure>
+        <div class="family-copy">
+          <p class="eyebrow">Meet the family</p>
+          <h2 id="family-heading">We've been your neighbors as well as your plumbers.</h2>
+          <p>Covenant Plumbing is a family-run shop based in Rosenberg. Tony Martinez (Antonio Martinez Jr.) has held a Texas Responsible Master Plumber license since March 11, 1988, and the shop is still at 406 3rd St. We look after kitchens, water heaters, and everyday repairs for families across Rosenberg, Richmond, Sugar Land, Fulshear, and Needville.</p>
+          <p>We treat your house the way we'd treat ours: shoes off at the door, a clear price before we start, and a follow-up call to make sure the quiet in your pipes lasts.</p>
+          <ul class="family-facts">
+            <li><strong>4.8</strong><span>Google rating</span></li>
+            <li><strong>19</strong><span>Google reviews</span></li>
+            <li><strong>Rosenberg</strong><span>Home base</span></li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="rates" id="rates" aria-labelledby="rates-heading">
+    <section class="services" id="services" aria-labelledby="services-heading">
       <div class="container">
-        <div class="rates-head">
-          <div>
-            <p class="section-kicker">Sample prices · confirmed on site</p>
-            <h2 id="rates-heading">Upfront flat rates. No guessing.</h2>
-          </div>
-          <p class="rates-note">You see the number before we start. The prices below are sample starting rates for a typical house call — your plumber confirms the exact amount on site.</p>
+        <div class="services-head">
+          <p class="eyebrow">What we come over for</p>
+          <h2 id="services-heading">The everyday work, done carefully.</h2>
         </div>
-        <ul class="rate-grid">
+        <ul class="service-list">
           <li>
-            <p class="rate-name">Clogged drain</p>
-            <p class="rate-price">From <strong>$149</strong></p>
-            <p class="rate-desc">Kitchen, bath, or laundry line. Snaking included.</p>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none"><path d="M8 26c4-10 20-10 24 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M20 8v10M16 12h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="20" cy="28" r="4" stroke="currentColor" stroke-width="1.8"/></svg>
+            </span>
+            <h3>Leaks, drips &amp; surprise puddles</h3>
+            <p>Supply lines, shutoffs, slab leaks, and the faucet that started singing at night. We'll find it before it finds your flooring.</p>
           </li>
           <li>
-            <p class="rate-name">Toilet repair</p>
-            <p class="rate-price">From <strong>$129</strong></p>
-            <p class="rate-desc">Running, overflowing, or won't flush. Parts extra if needed.</p>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none"><rect x="13" y="8" width="14" height="22" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M16 14h8M16 18h8M16 22h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M20 30v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Water heaters that keep up</h3>
+            <p>Repair, flush, or a full replacement — tank or tankless — so the second shower of the morning isn't a surprise.</p>
           </li>
           <li>
-            <p class="rate-name">Faucet install</p>
-            <p class="rate-price">From <strong>$189</strong></p>
-            <p class="rate-desc">Swap a kitchen or bath faucet. You supply the fixture, or we can.</p>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none"><path d="M10 26h12a6 6 0 0 0 6-6V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8 26c0 4 3 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="28" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/></svg>
+            </span>
+            <h3>Kitchens, baths &amp; fixtures</h3>
+            <p>New faucets, toilets, disposals, and the little upgrades that make a room feel finished. We'll bring recommendations if you want them.</p>
           </li>
           <li>
-            <p class="rate-name">Burst pipe / leak stop</p>
-            <p class="rate-price">From <strong>$199</strong></p>
-            <p class="rate-desc">Emergency shutoff and a same-visit repair when we can.</p>
-          </li>
-          <li>
-            <p class="rate-name">Water heater swap</p>
-            <p class="rate-price">From <strong>$1,149</strong></p>
-            <p class="rate-desc">Standard 40–50 gal tank, haul-away included. Unit priced separately.</p>
-          </li>
-          <li>
-            <p class="rate-name">Sewer camera</p>
-            <p class="rate-price">From <strong>$249</strong></p>
-            <p class="rate-desc">Line inspection with a recording you can keep.</p>
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none"><circle cx="20" cy="20" r="11" stroke="currentColor" stroke-width="1.8"/><path d="M20 14v6l4 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>The “please come today” calls</h3>
+            <p>Backed-up lines, no hot water, and overflowing toilets. We'll do our best to be there the same day — members get first dibs.</p>
           </li>
         </ul>
-        <p class="sample-flag">Sample prices for illustration. Not a quote.</p>
-      </div>
-    </section>
-
-    <section class="band" aria-label="What we handle">
-      <div class="band-grid">
-        <figure class="band-photo">
-          <img src="assets/pipes.jpg" alt="Industrial pipework mounted on a brick wall" width="1800" height="1350">
+        <figure class="services-photo">
+          <img src="assets/kitchen.jpg" alt="A bright kitchen with a large island, farmhouse sink, and a vase of sunflowers" width="1800" height="1200">
+          <figcaption>Kitchens like this are our favorite kind of workplace.</figcaption>
         </figure>
-        <div class="band-copy">
-          <p class="section-kicker">If the water isn't where it should be</p>
-          <h2>We handle the messy ones.</h2>
-          <ul class="band-list">
-            <li>Burst pipes and slab leaks</li>
-            <li>Sewage backups</li>
-            <li>No hot water</li>
-            <li>Broken shutoff valves</li>
-            <li>Gas line emergencies</li>
-            <li>Water heater failures</li>
-          </ul>
-          <a class="btn btn-primary" href="tel:+18327440705">Call (832) 744-0705</a>
-        </div>
       </div>
     </section>
 
-    <section class="faq" id="faq" aria-labelledby="faq-heading">
-      <div class="container faq-grid">
-        <div class="faq-intro">
-          <p class="section-kicker">Quick answers</p>
-          <h2 id="faq-heading">Before you call.</h2>
-          <p>Still not sure if this is an emergency? Call anyway. We'll tell you if it can wait until morning.</p>
-          <a class="btn btn-primary" href="tel:+18327440705">Call now</a>
+    <section class="plan" id="plan" aria-labelledby="plan-heading">
+      <div class="container plan-grid">
+        <div class="plan-copy">
+          <p class="eyebrow">A little care, twice a year</p>
+          <h2 id="plan-heading">The Covenant Home Plan.</h2>
+          <p>Most of the expensive surprises we see could have been a quiet Tuesday visit. The Home Plan is our way of looking after your pipes the way a good neighbor looks after a house — regularly, and before anything breaks.</p>
+          <ul class="plan-perks">
+            <li>Two seasonal checkups (spring and fall)</li>
+            <li>Priority booking — you're at the front of the calendar</li>
+            <li>15% off repairs and fixtures we install</li>
+            <li>No after-hours fee for members</li>
+            <li>A written report after every visit</li>
+          </ul>
+          <p class="plan-price">Sample price: <strong>$19 a month</strong> or <strong>$199 a year</strong></p>
+          <a class="btn btn-primary" href="#book">Ask about the plan</a>
         </div>
-        <div class="faq-list">
-          <details open>
-            <summary>Do you really arrive in 60 minutes?</summary>
-            <p>That's the sample promise for homes in our core area — Rosenberg, Richmond, Sugar Land, Fulshear, and Needville — when a technician is available. If the wait will be longer, the dispatcher tells you before you hang up. Confirm response times with the shop.</p>
-          </details>
-          <details>
-            <summary>Are the prices on this page guaranteed?</summary>
-            <p>They're sample starting rates, shown so you know the ballpark before we arrive. Your plumber walks the job, then gives you a firm number. Work starts only after you approve it.</p>
-          </details>
-          <details>
-            <summary>Do you come at 2 a.m. on a Sunday?</summary>
-            <p>Yes. The dispatch line is answered 24 hours a day, including nights, weekends, and holidays. After-hours calls are treated as emergencies, not callbacks in the morning.</p>
-          </details>
-          <details>
-            <summary>What if I just need a regular repair?</summary>
-            <p>We do those too. If it isn't urgent, say so — we'll still get a plumber on the calendar fast, without treating it like a flood.</p>
-          </details>
-          <details>
-            <summary>Are you licensed and insured?</summary>
-            <p>Yes. Every technician is a Texas-licensed plumber, background-checked, and fully insured before they step into your home. Ask to see the license in the truck if you'd like.</p>
-          </details>
+        <figure class="plan-photo">
+          <img src="assets/house-texas.jpg" alt="A limestone house with pine trees and a curving driveway at golden hour" width="1800" height="1199">
+          <figcaption>Homes around Rosenberg and nearby towns — sample photo.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <p class="eyebrow">On Google, Covenant Plumbing is rated 4.8 from 19 reviews. The quotes below are sample reviews from nearby homes, for demonstration only.</p>
+        <h2 id="reviews-heading" class="visually-hidden">Kind words from neighbors</h2>
+        <blockquote class="quote-main">
+          <p>“I wouldn't let anyone else in my house.<br>They fixed our water heater on a Sunday and still asked about the kids.”</p>
+          <footer>— Janelle P., Rosenberg <span>(sample)</span></footer>
+        </blockquote>
+        <blockquote class="quote-second">
+          <p>“They called the night before to confirm, put shoe covers on without being asked, and the kitchen faucet hasn't dripped since. That's the whole story.”</p>
+          <footer>— Chris &amp; Priya M., Richmond <span>(sample)</span></footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="book" id="book" aria-labelledby="book-heading">
+      <div class="container book-grid">
+        <div class="book-copy">
+          <p class="eyebrow">We'll come to you</p>
+          <h2 id="book-heading">Pick a morning or an afternoon. We'll be there.</h2>
+          <p>Choose a day and a window that works. We'll confirm by phone the day before, and we'll text when we're on the way. If something is overflowing right now, skip the calendar and call — we'll do our best to come today.</p>
+          <p class="book-phone">Or just call <a href="tel:+18327440705">(832) 744-0705</a></p>
         </div>
+
+        <form class="book-card" id="booking-form" action="#" method="post">
+          <p class="book-card-label">Sample booking calendar</p>
+          <fieldset class="date-field">
+            <legend>Choose a day</legend>
+            <div class="date-row" id="date-row"></div>
+          </fieldset>
+          <fieldset class="time-field">
+            <legend>Choose a window</legend>
+            <div class="time-row" id="time-row">
+              <label class="chip"><input type="radio" name="time" value="8:00–10:00 a.m."> 8:00–10:00 a.m.</label>
+              <label class="chip"><input type="radio" name="time" value="10:00 a.m.–12:00 p.m."> 10:00–12:00 p.m.</label>
+              <label class="chip"><input type="radio" name="time" value="1:00–3:00 p.m."> 1:00–3:00 p.m.</label>
+              <label class="chip"><input type="radio" name="time" value="3:00–5:00 p.m."> 3:00–5:00 p.m.</label>
+            </div>
+          </fieldset>
+          <div class="field-row">
+            <label>Name
+              <input type="text" name="name" placeholder="Your name" autocomplete="name">
+            </label>
+            <label>Phone
+              <input type="tel" name="phone" placeholder="(281) 555-0100" autocomplete="tel">
+            </label>
+          </div>
+          <label>What's going on?
+            <textarea name="message" rows="3" placeholder="A drip, a water heater, or a checkup — a sentence is enough."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Book this visit</button>
+          <p class="form-status" id="form-status" hidden></p>
+        </form>
       </div>
     </section>
   </main>
@@ -213,22 +217,90 @@
       <div>
         <p class="footer-brand">Covenant Plumbing</p>
         <p>406 3rd St, Rosenberg, TX 77471</p>
-        <p><a href="tel:+18327440705">(832) 744-0705</a> · <span>Sample hours: Open 24/7</span></p>
+        <p>Office: <a href="tel:+12813415827">(281) 341-5827</a></p>
+        <p><a href="tel:+18327440705">(832) 744-0705</a></p>
+        <p>Call or text Tony for current hours and to book a visit.</p>
       </div>
       <div>
-        <p class="footer-label">Service area</p>
-        <p>Rosenberg, Richmond, Sugar Land, Fulshear, Needville, and Beasley, and nearby towns.</p>
+        <p class="footer-label">Proudly serving</p>
+        <p>Rosenberg, Richmond, Sugar Land, Fulshear, Needville, and Beasley, and the neighborhoods in between.</p>
       </div>
       <div>
         <p class="footer-label">About this page</p>
-        <p>Demo website prepared for Covenant Plumbing. Flat rates, arrival times, and dispatch status on this page are sample content for illustration.</p>
+        <p>Demo website prepared for Covenant Plumbing. Sample reviews, plan prices, and the booking calendar are for illustration and do not schedule a real visit.</p>
         <p class="demo-credit">Demo site prepared by Walter Andrzejewski</p>
       </div>
     </div>
   </footer>
 
-  <div class="mobile-cta" role="navigation" aria-label="Call now">
-    <a class="btn btn-primary" href="tel:+18327440705">Call (832) 744-0705</a>
+  <div class="mobile-cta" role="navigation" aria-label="Book or call">
+    <a class="btn btn-ghost" href="tel:+18327440705">Call</a>
+    <a class="btn btn-primary" href="#book">Book a visit</a>
   </div>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector(".nav-toggle");
+      var nav = document.getElementById("site-nav");
+      if (toggle && nav) {
+        toggle.addEventListener("click", function () {
+          var open = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", String(!open));
+          nav.classList.toggle("is-open", !open);
+        });
+        nav.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            toggle.setAttribute("aria-expanded", "false");
+            nav.classList.remove("is-open");
+          });
+        });
+      }
+
+      var dateRow = document.getElementById("date-row");
+      if (dateRow) {
+        var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        var start = new Date();
+        for (var i = 0; i < 7; i++) {
+          var d = new Date(start);
+          d.setDate(start.getDate() + i);
+          var label = document.createElement("label");
+          label.className = "date-chip";
+          var input = document.createElement("input");
+          input.type = "radio";
+          input.name = "date";
+          input.value = d.toISOString().slice(0, 10);
+          if (i === 1) input.checked = true;
+          var day = document.createElement("span");
+          day.className = "date-dow";
+          day.textContent = i === 0 ? "Today" : days[d.getDay()];
+          var num = document.createElement("span");
+          num.className = "date-num";
+          num.textContent = String(d.getDate());
+          label.appendChild(input);
+          label.appendChild(day);
+          label.appendChild(num);
+          dateRow.appendChild(label);
+        }
+      }
+
+      var form = document.getElementById("booking-form");
+      var status = document.getElementById("form-status");
+      if (form && status) {
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          var dateInput = form.querySelector("input[name=date]:checked");
+          var timeInput = form.querySelector("input[name=time]:checked");
+          var dateLabel = "a day this week";
+          if (dateInput) {
+            var picked = new Date(dateInput.value + "T12:00:00");
+            dateLabel = picked.toLocaleDateString(undefined, { weekday: "long", month: "short", day: "numeric" });
+          }
+          var timeLabel = timeInput ? timeInput.value : "a time window";
+          status.hidden = false;
+          status.textContent = "Nice choice — " + dateLabel + ", " + timeLabel + ". This is a sample booking form, so no appointment has been scheduled.";
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
